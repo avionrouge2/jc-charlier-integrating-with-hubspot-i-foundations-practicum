@@ -26,3 +26,8 @@ ___
 - All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 - You must have at least two new routes in your index.js file and one new pug template for the homepage.
 - You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+
+
+## Custom Object List
+
+View the list of CRM records for this practicum [here](https://app.hubspot.com/contacts/21090396/objects/0-1/views/all/list)

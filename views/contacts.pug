@@ -13,3 +13,15 @@
 //-                 .card 
 //-                     h2.card__name #{contact.properties.firstname}  #{contact.properties.lastname}
 //-                     p.card__email #{contact.properties.email}
+
+
+
+doctype html
+html
+  head
+    title= title
+  body
+    h1= title
+    ul
+      each contact in contacts
+        li= contact.properties.firstname + ' ' + contact.properties.lastname
