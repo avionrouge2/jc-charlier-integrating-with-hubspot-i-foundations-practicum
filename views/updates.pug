@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    h1= title
+    form(action="/update-cobj" method="POST")
+      div
+        label(for="firstname") First Name:
+        input(type="text" id="firstname" name="firstname" required)
+      div
+        label(for="lastname") Last Name:
+        input(type="text" id="lastname" name="lastname" required)
+      div
+        label(for="email") Email:
+        input(type="email" id="email" name="email" required)
+      div
+        button(type="submit") Create Contact
+    a(href="/") Return to the homepage

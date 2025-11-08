@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    h1= title
+    a(href="/update-cobj") Add a new contact
+
+    if contacts.length
+      table(border="1" cellpadding="5" cellspacing="0")
+        thead
+          tr
+            th First Name
+            th Last Name
+            th Email
+        tbody
+          each contact in contacts
+            tr
+              td= contact.properties.firstname
+              td= contact.properties.lastname
+              td= contact.properties.email
+    else
+      p No contacts found.
